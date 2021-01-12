@@ -7,7 +7,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version   = 2021011200; // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 2021011201; // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2021052500; // Requires this Moodle version
 $plugin->component = 'tool_ant1234'; // Full name of the plugin (used for diagnostics)
-$plugin->release = '1.0';
+$plugin->release = '1.1';
