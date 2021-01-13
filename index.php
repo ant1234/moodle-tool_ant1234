@@ -2,6 +2,8 @@
 
 require_once(__DIR__ . '/../../../config.php');
 
+require_login();
+require_capability('tool/ant1234:view');
 
 $url = new moodle_url('/admin/tool/ant1234/index.php');
 $PAGE->set_context(context_system::instance());
